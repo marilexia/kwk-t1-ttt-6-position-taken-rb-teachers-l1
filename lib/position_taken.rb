@@ -8,9 +8,9 @@ def position_taken?(board, index)
       return false
   end
   
-  if board = "X" || board = "O"
-    return true
-  end
+  # if board = "X" || board = "O"
+  #   return true
+  # end
 
 
 end
