@@ -2,19 +2,24 @@
 
 
 
-def position_taken?(board, index)
-
- if board = " " || board = "" || nil
-  # if  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-      return false
-  end
-
-if !(board = " " || board = "" || nil)
-    return true
-  end
-
-# if board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
+# def position_taken?(board, index)
+# 
+#  if board = " " || board = "" || nil
+#   
+#       return false
+#   end
+# 
+# if !(board = " " || board = "" || nil)
 #     return true
 #   end
+# 
+# end
 
+
+def position_taken? (board, index)# code your #position_taken? method here!
+  if board[index] == "" || board[index] == " " || board[index] == nil
+    false
+  elsif board[index] == "X" || board[index] == "O"
+     true
+  end
 end
