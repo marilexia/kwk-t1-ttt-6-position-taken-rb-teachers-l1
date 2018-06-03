@@ -7,13 +7,13 @@ def position_taken?(board, index)
   # if board = " "
   if  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       return false
-  #end
+  end
 
   # if index = "X" || index = "O"
   #   return true
   # end
 
-elsif board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
+if board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
     return true
   end
 
