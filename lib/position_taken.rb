@@ -13,7 +13,7 @@ def position_taken?(board, index)
   #   return true
   # end
 
-  if board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
+elsif board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
     return true
   end
 
