@@ -4,8 +4,8 @@
 
 def position_taken?(board, index)
 
-  # if board = " "
-  if  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+ if board = " " || board = "  "
+  # if  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       return false
   end
 
