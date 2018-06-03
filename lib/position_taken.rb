@@ -7,9 +7,9 @@ def position_taken?(board, index)
  if board = " " || board = "" || nil
   # if  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       return false
-  #end
+  end
 
-elsif board != " " || board != "" || nil
+elsif board != " " || board != "" || board != nil
     return true
   end
 
