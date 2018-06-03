@@ -9,12 +9,12 @@ def position_taken?(board, index)
       return false
   end
 
-  if index = "X" || index = "O"
+  # if index = "X" || index = "O"
+  #   return true
+  # end
+
+  if board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
     return true
   end
-  
-  # if
-  #
-  # end
 
 end
