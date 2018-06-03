@@ -5,5 +5,7 @@
 def position_taken?(board, index)
   if board = " "
     return false
+  elsif board != " "
+    return true
   end
 end
