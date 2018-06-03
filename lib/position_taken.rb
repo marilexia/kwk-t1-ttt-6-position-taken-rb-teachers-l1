@@ -3,6 +3,6 @@
 
 
 def position_taken(board, index)
-  if board = [" "]
+  if board = " "
   return false
 end
