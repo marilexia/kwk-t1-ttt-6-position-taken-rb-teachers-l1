@@ -8,7 +8,7 @@ def position_taken?(board, index)
       return false
   end
 
-  if index = "X" || index = "O"
+  if board = "X" || board = "O" && index = "X" || index = "O"
     return true
   end
 
