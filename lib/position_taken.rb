@@ -9,7 +9,7 @@ def position_taken?(board, index)
       return false
   #end
 
-elsif board != " " || board = " "
+elsif board != " " || board != "" || nil
     return true
   end
 
